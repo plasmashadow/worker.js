@@ -1,0 +1,19 @@
+{
+  "name": "Thread.js",
+  "version": "1.0.0",
+  "description": "Threads on browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js > thread.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "plasmashadow/worker.js"
+  },
+  "author": "plasmashadow",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^11.2.0"
+  }
+}

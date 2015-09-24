@@ -39,6 +39,9 @@ Thread.prototype.start = function(){
     worker.onclose = function(data){
       that.emit('close', data);
     }
+    worker.onerror = function(error){
+      that.emit('error', error);
+    }
     that.workers.push(worker);
   });
 }

@@ -25,7 +25,7 @@ npm install
 
 ###Creating Threads
 
-```
+```javascript
 
 var thread = new Thread();
 
@@ -50,7 +50,7 @@ thread.start();
 
 Thread Events can be managed by their respective events.
 
-```
+```javascript
 var thread = new Thread();
 
 thread.once('message', function(message){
@@ -71,7 +71,7 @@ thread.once('error', function(error){
 
 Posting message can to the childs can be done with there childids.
 
-```
+```javascript
 
 thread.message(childid, "please work fast");
 
